@@ -1,0 +1,201 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(249, 249, 249);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background: white;
+    flex-wrap: wrap;
+}
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    /* cursor: pointer; */
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    cursor: pointer;
+}
+
+.menu a:hover{
+    color: rgb(78, 128, 238);
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+#logo span{
+    color: rgb(78, 128, 238);
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#log-in {
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    color: black;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#log-in:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-color: black;
+}
+
+#sign-up {
+    background-color: #151e31;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: #f4f4f4;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#sign-up:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+}
+
+.top{
+    background: linear-gradient(to bottom right, rgb(41, 53, 74), rgb(17, 24, 41));
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.top p{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#get-started{
+    background-color: white;
+    border: 1px solid #444;
+    color: rgb(23, 22, 22);
+    border-radius: 8px;
+    padding: 11px 17px;
+    cursor: pointer;
+}
+
+#view-c{
+    background-color: rgb(28, 35, 52);
+    border: 1px solid #444;
+    color: white;
+    border-radius: 8px;
+    padding: 11px 17px;
+    cursor: pointer;
+}
+
+#get-started:hover{
+    background-color: rgb(28, 35, 52);
+    color: white;
+}
+
+#view-c:hover{
+    background-color: white;
+    color: rgb(28, 35, 52);
+}
+
+.courses{
+    background-color: white;
+    color: #0f172a;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+.courses p {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.courses-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.box{
+    width: 300px;
+    background-color: white;
+    padding: 28px;        
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+#box1{
+    border-top: 3px solid rgb(220, 73, 65);
+
+}
+
+#box2{
+    border-top: 3px solid rgb(56, 117, 237);
+
+}
+
+#box3{
+    border-top: 3px solid rgb(70, 180, 127);
+
+}
+
+#box1 h3{
+    color: rgb(220, 73, 65);
+}
+
+#box2 h3{
+    color: rgb(56, 117, 237);
+}
+
+#box3 h3{
+    color: rgb(70, 180, 127);
+}
+
+.explore{
+    text-decoration: none;
+    color: rgb(56, 117, 237);
+
+}
+
+.explore:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top: 1px solid #d4d2d2 ;
+    color: #d4d2d2;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
