@@ -1,4 +1,4 @@
-html{
+* {
     background: linear-gradient(rgb(199, 166, 143), rgb(115, 85, 64));
     scroll-behavior: smooth;
 }
