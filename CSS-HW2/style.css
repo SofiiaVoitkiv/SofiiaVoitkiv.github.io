@@ -1,4 +1,4 @@
-* {
+html {
     background: linear-gradient(rgb(199, 166, 143), rgb(115, 85, 64));
     scroll-behavior: smooth;
 }
@@ -11,6 +11,8 @@ body{
     background-color: bisque;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(59, 45, 34);
+    /* background: linear-gradient(rgb(199, 166, 143), rgb(115, 85, 64));
+    scroll-behavior: smooth; */
 
 }
 
